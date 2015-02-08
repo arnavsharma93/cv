@@ -1,0 +1,202 @@
+%!TEX program = xelatex
+% Resume of Arnav Sharma built using ModernCV
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+\usepackage[scale=0.83]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your nam
+% \usepackage{fontspec}
+% \usepackage{fontawesome}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Arnav} % Your first name
+\familyname{Sharma} % Your last name
+\title{R\'esum\'e}
+% All information in this block is optional, comment out any lines you don't need
+%\title{Roll No : 201125093}
+% \extrainfo{331 Old Boys Hostel IIIT-Hyderabad}
+% \address{201125093}{}
+% \address{331 Old Boys Hostel }{IIIT-Hyderabad}
+
+\phone[mobile]{(+91) 9701518597}
+% \fax{201125093}
+\email{arnavsharma93@gmail.com}
+
+\homepage{researchweb.iiit.ac.in/\textasciitilde arnav.s}
+
+\social[github]{arnavsharma93}
+
+\social[linkedin]{arnavsharma93}
+% The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-12mm} % reduce the vertical space so that the resume fits
+% \section{Fields of Interest}
+% % \cvitem{}{
+% % \begin{itemize}
+% \cvlistitem {Speech and Natural Language Processing}
+% \cvlistitem {Web Development}
+% \cvlistitem {*nix }
+% \end{itemize}
+% }
+\section{Objective}
+To spend my days designing systems and solving interesting puzzles with talented teammates.
+
+
+\section{Summary}
+Able to blend computer science education, software engineering experience, and communication skills to build elegant, reliable, maintainable systems
+
+
+\section{Education}
+
+\cventry{2011--2016}{B. Tech. (Hons) in Computer Science and MS in Computational Linguistics}{International Institute of Information Technology, Hyderabad}{}{}{ {\bfseries  CGPA--7.8}}  % Arguments not required can be left empty
+
+\cventry{2011}{High School Certificate Examination}{Delhi Public School, Jalandhar}{}  {} { {\bfseries Percentage -- 91\%}}
+
+\cventry{2009}{Senior School Certificate Examination}{Army Public School, Jalandhar}{}  {} { {\bfseries Percentage -- 92\%}}
+
+
+\section{Work Experience}
+
+\subsection{\bfseries{Software Developer}}
+
+\cvitem{\textsc{Google Summer of Code - SSF}} {\hfill May'14--August'14}
+\cvitem {}{Developed a testing framework - \href{http://eden.sahanafoundation.org/wiki/DeveloperGuidelines/Testing/EdenTest}{EdenTest} - built on Robot Framework for the open source organization Sahana's product \textit{Eden}. The project has reduced the number of bugs per code ratio to almost half and is used exensively in ATDD of Eden. It was mentored by \href{https://github.com/nursix}{\underline{Dominic Koenig}}.}
+
+\cvitem{\textsc{AidIQ}} {\hfill September'14--Present}
+\cvitem {}{I am working on building Continuous Integration solutions for Eden. This involves the following:
+\begin{itemize}
+    \item Ability to run Sahana Eden unit tests on GitHub Pull Requests for a specific branch (\href{https://travis-ci.org/flavour/eden}{\underline{here}}).
+    \item Ability to run Sahana Eden functional tests (EdenTest) on a GitHub branch on demand.
+    \item Ability to schedule and run Sahana Eden smoke tests (EdenTest) on a GitHub branch (nightly builds).
+\end{itemize}
+}
+
+\cvitem{\textsc{Synapz Adaptive Technologies}} {\hfill June--September'13}
+\cvitem {}{Worked as a full stack web developer where I developed an \textit{online judge for automatic evaluation codes}. Later, deployed it on \textit{Amazon Web Services}.}
+
+
+\subsection{\bfseries{Research Assistant}}
+
+\cvitem{\textsc{Language Technology Resource Center}} {\hfill May--Sept'13}
+\cvitem {}{Engineered the website for \href{http://ltrc.iiit.ac.in/icon/2013}{\underline{{\bfseries International Conference On NLP-13}}}.}
+
+
+\subsection{\bfseries{Teaching \& Mentoring}}
+
+\cvitem{\textsc{Google Code-In}} {\hfill November--January'13, 14}
+\cvitem {}{Appointed as a Google Code-In mentor for \textit{Sahana Software Foundation} where I mentored high school students in their introductory steps in Open Source contribution.}
+
+\cvitem{\textsc{Teaching Assistant }} {\hfill August--December'13}
+\cvitem {}{ Appointed as a teaching assistant at IIIT-Hyderabad for:
+\begin{itemize}
+    \item{Computer Networks} under \href{http://iiit.ac.in/people/faculty/faculty/shatrunjay.rawat} {\underline{Prof. Shatrunjay Rawat}}
+    \item{ITWS} under \href{http://iiit.ac.in/people/faculty/vikram}{\underline{Dr. Vikram Pudi}} at IIIT-Hyderabad.
+\end{itemize}}
+
+
+\section{\bfseries{Projects}}
+
+\subsection{\bfseries{Analysis of error propagation LTRC Parsing Pipeline}}
+\cvitem{Mentor}{\href{http://www.iiit.ac.in/people/faculty/dipti}{\underline{{Prof. Dipti Misra Sharma}}}}
+\cvitem{Description}{Analyzing the error propagation in the Parsing Pipeline for Hindi and improving the accuracy of the pipeline by remodeling it.}
+
+\subsection{\bfseries{Twitter entity linking with Wikipedia}}
+\cvitem{Mentor}{\href{http://iiit.ac.in/people/faculty/vv}{\underline{{Prof. Vasudeva Varma}}}}
+\cvitem{Description}{Built a system which for a given tweet, finds the entities and then using contextual information about these entities, tries to link it with their corresponding Wikipedia page. Link to the {\href{https://www.dropbox.com/s/vw999ugx4bkh0ps/FinalVersion.mov} {\underline{video}} explaining the approach and working.}}
+
+\subsection{\bfseries{Urdu to Hindi Transliterater}}
+\cvitem{Mentor}{{\bfseries Dr. Riyaz Bhatt}}
+\cvitem{Description}{Built a transliterater using tools such as GIZA++ and CRF Classifier which transliterates from Urdu to Hindi. It has an accuracy of 98.4.}
+
+\subsection{\bfseries{Search Engine for Wikipedia}}
+\cvitem{Mentors}{\href{http://www.iiit.ac.in/people/faculty/vv}{\underline{{Dr. Vasudeva Varma IIIT-H}}}}
+\cvitem{Description}{Designed a fully functional offline Search Engine for Wikipedia in Python. Implemented the search engine on a 42 GB dump of Wikipedia. Search engine was built from scratch, starting from design to coding without using any helper library functions.}
+
+
+\section{Minor Projects}
+
+\begin{itemize}
+
+\item {\bfseries Face recognizer}: As a course project of Statistical Methods of Artificial Intelligence, created a face recognizer by implementing Eigen Faces and using SVM.
+\item {\bfseries Bash-like Shell}: A basic shell/terminal to simulate the a subset of the functionality provided by Bash.
+\item {\bfseries Compiler for Decaf}: Built a compiler (front end to IR) for Decaf programming language.
+
+\end{itemize}
+
+
+\section{\bfseries{Technical Skills}}
+
+\cvitem{Languages}{C, Python, Bash, PHP}
+\cvitem{OS}{*nix}
+\cvitem{Web} {HTML5, CSS, Javascript, Django, Bootstrap, Ruby on Rails,  Web2py}
+\cvitem{Databases}{MySQL, SQLite3}
+\cvitem{Miscellaneous}{Git, SVN, Apache, \LaTeX, Testing, Scikit-Learn}
+
+
+\section{\bfseries{Achievements}}
+
+\cvitem{Microsoft Code-Fun-Do}{Stood fourth in appathon organized by \textit{Microsoft India Development Center.}
+}
+\cvitem{ACM-ICPC Regionals}{Qualified for ACM-ICPC Amritapuri Regionals 2013.
+}
+\cvitem{AIEEE}{Secured \textit{All India Rank of 5195 (99.52 percentile)} in AIEEE 2011.
+}
+\cvitem{CBSE AISSCE}{Stood {\textit first} in science streams.
+}
+\cvitem{National Level Quizzing}{Participated in the quizzes such as \textit{Limca Records Quiz}.
+}
+
+
+\section{\bfseries{Interests}}
+
+\cvlistitem{Quizzing}
+\cvlistitem{Open Source Development}
+
+\centerline{\small{{\bfseries Last updated} : \today.}}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
